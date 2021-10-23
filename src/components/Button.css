@@ -1,0 +1,11 @@
+:root {
+    --border-button: solid 1px #888
+}
+.Button {
+    font-size: 1.4em;
+    background-color: #f0f0f0;
+    border: none;
+    border-right: var(--border-button);
+    border-bottom: var(--border-button);
+    outline: none;
+}
