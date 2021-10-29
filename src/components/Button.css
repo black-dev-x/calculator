@@ -9,3 +9,19 @@
     border-bottom: var(--border-button);
     outline: none;
 }
+.Button:active {
+    background-color: #ccc;
+}
+.Button.double {
+    grid-column: span 2;
+}
+.Button.triple {
+    grid-column: span 3;
+}
+.Button.operation {
+    background-color: #fa8232;
+    color: #FFF;
+}
+.Button.operation:active {
+    background-color: #fa8231cc;
+}
